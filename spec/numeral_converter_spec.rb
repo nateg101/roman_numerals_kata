@@ -8,4 +8,8 @@ describe NumeralConverter do
     expect(numeral_converter.convert(1)).to eq "I"
   end
 
+  it 'accepts an 11 and returns "XI"' do
+    expect(numeral_converter.convert(11)).to eq "XI"
+  end
+
 end
